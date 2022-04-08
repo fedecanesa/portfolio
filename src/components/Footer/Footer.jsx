@@ -4,7 +4,6 @@ import {
     AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiWhatsapp } from "react-icons/si";
 
 function Footer() {
     let date = new Date();
@@ -39,16 +38,6 @@ function Footer() {
                                 rel="noopener noreferrer"
                             >
                                 <FaLinkedinIn />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://wa.me/5491161624345"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="icon-colour  home-social-icons"
-                            >
-                                <SiWhatsapp />
                             </a>
                         </li>
                     </ul>
